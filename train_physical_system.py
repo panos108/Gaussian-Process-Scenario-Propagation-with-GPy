@@ -259,8 +259,7 @@ class GPR(Callback):
     def eval(self, arg):
         [mean, _] = model.predict_y(np.array(arg[0]))
         return [mean]
-#from Dynamic_system_penic import integrator_model, specifications, DAE_system
-#from Problem_definition_ISbRwSc import integrator_model, specifications, DAE_system
+
 from Dynamic_system import integrator_model, specifications, DAE_system
 
 def training_physical():
